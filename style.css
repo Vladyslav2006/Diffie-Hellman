@@ -1,0 +1,42 @@
+@import url('https://fonts.cdnfonts.com/css/rastaglion');
+
+html, body {
+  height: 100%;
+  margin: 0;
+  font-family: 'Rastaglion', sans-serif;
+  color: #f0f0f0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+
+  background-color: brown;
+
+  background-size: 400% 400%;
+}
+.wrapper {
+  max-width: 800px;
+  padding: 20px;
+  background-color: rgba(20, 20, 20, 0.7);
+  border-radius: 15px;
+  box-shadow: 0 0 20px rgba(0,0,0,0.5);
+}
+
+h2, h3, p, ul, li, a {
+  margin: 10px 0;
+}
+
+a {
+  color: #1e90ff;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+.photo img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 10px;
+}

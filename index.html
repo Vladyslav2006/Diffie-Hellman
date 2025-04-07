@@ -1,0 +1,45 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <link rel="stylesheet" href="style.css">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Diffie-Hellman Key Exchange</title>
+  <meta name="description" content="Basic information about the Diffie-Hellman key exchange algorithm">
+
+  <meta property="og:title" content="Diffie-Hellman Key Exchange Overview">
+  <meta property="og:type" content="article">
+  <meta property="og:url" content="">
+  <meta property="og:image" content="">
+  <meta property="og:image:alt" content="Diffie-Hellman">
+
+  <meta name="theme-color" content="#fafafa">
+</head>
+
+<body>
+
+<div>
+  <h2>Diffie-Hellman Key Exchange Algorithm</h2>
+  <p><strong>Diffie-Hellman</strong> is a method of securely exchanging cryptographic keys over a public channel. It was invented by Whitfield Diffie and Martin Hellman in 1976.</p>
+
+  <h3>History</h3>
+  <p>The Diffie-Hellman algorithm was the first practical method for securely exchanging cryptographic keys over an untrusted communication channel. It laid the foundation for modern public-key cryptography.</p>
+
+  <h3>How It Works</h3>
+  <ul>
+    <li>Diffie-Hellman allows two parties to agree on a shared secret key, which can then be used for secure communication.</li>
+    <li>It relies on the difficulty of solving discrete logarithms in a finite field, which makes it computationally infeasible to deduce the shared key without knowing certain private information.</li>
+    <li>The process involves the exchange of public parameters (a large prime number and a base) between the parties.</li>
+    <li>Each party selects a private key and computes a public key, which they exchange. The shared secret is then derived independently by both parties, but it is computationally infeasible for an attacker to deduce it.</li>
+  </ul>
+
+  <div>
+    <img src="1.png" alt="Diffie-Hellman Key Exchange" style="max-width: 100%; height: 300px;">
+    <img src="2.png" alt="Whitfield Diffie" style="max-width: 100%; height: 300px;">
+  </div>
+</div>
+
+</body>
+
+</html>
